@@ -66,6 +66,7 @@
             this.pcbFight2Jthi = new System.Windows.Forms.PictureBox();
             this.pcbFight1Jthi = new System.Windows.Forms.PictureBox();
             this.tmrJthi = new System.Windows.Forms.Timer(this.components);
+            this.test2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tbc1Jthi.SuspendLayout();
             this.tbAddJthi.SuspendLayout();
@@ -130,6 +131,7 @@
             // 
             // tbAddJthi
             // 
+            this.tbAddJthi.Controls.Add(this.test2);
             this.tbAddJthi.Controls.Add(this.pcbAdd1Jthi);
             this.tbAddJthi.Controls.Add(this.lblLastAddedJthi);
             this.tbAddJthi.Controls.Add(this.lblLastAddedTxtJthi);
@@ -424,6 +426,15 @@
             // 
             this.tmrJthi.Tick += new System.EventHandler(this.tmrJthi_Tick);
             // 
+            // test2
+            // 
+            this.test2.Location = new System.Drawing.Point(359, 179);
+            this.test2.Name = "test2";
+            this.test2.Size = new System.Drawing.Size(75, 23);
+            this.test2.TabIndex = 11;
+            this.test2.Text = "test2";
+            this.test2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -489,6 +500,7 @@
         private System.Windows.Forms.ComboBox cmbFight2Jthi;
         private System.Windows.Forms.ComboBox cmbFight1Jthi;
         private System.Windows.Forms.Timer tmrJthi;
+        private System.Windows.Forms.Button test2;
     }
 }
 
